@@ -48,11 +48,11 @@ func init() {
 		panic(err)
 	}
 
-	Cfg.AppName = "ForestBlog"
+	Cfg.AppName = "cogo-blog"
 	Cfg.Version = 3.0
 	Cfg.DocumentDir = Cfg.CurrentDir + "/" + repoName
 	Cfg.GitHookUrl = "/api/git_push_hook"
-	Cfg.AppRepository = "https://github.com/xusenlin/ForestBlog"
+	Cfg.AppRepository = "https://github.com/LiuweiGHub/cogo-blog"
 }
 
 func Initial() {
